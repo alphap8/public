@@ -23,8 +23,9 @@ such as https://scastie.scala-lang.org/
 # Reading the code
 The code is actually divided into 3 sections.
 
-**Please note**: The parts are out of order - in the actual code
-we first declare our components (desert; bedvi; camel; sack; cat; kitten)
+**Please note**: The parts are out of order - in the actual code  
+we first declare our components  
+(desert; bedvi; camel; sack; cat; kitten)  
 and then use them to construct the actual riddle.
 
 ### part 1:
