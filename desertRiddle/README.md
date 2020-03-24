@@ -21,6 +21,11 @@ You should just copy the code and paste it to any online Scala editor that can e
 such as https://scastie.scala-lang.org/
 
 # Reading the code
+The code is actually divided into two sections:  
+The first is decalaring all the types constructs that implement the calculations.  
+The second part is actually using them in the most readable way.  
+
+Let's take a look at the second part - where we actually solve the riddle:
 ```
 desert()
     .`with`(3, bedvi()
@@ -29,3 +34,5 @@ desert()
           .`with`(3, cat()
             .`with`(3, kitten()))))).totalLegsCount
 ```
+
+
