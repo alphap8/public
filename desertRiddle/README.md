@@ -67,4 +67,9 @@ Each sack contain 3 cats.
 
 Each cat have 3 kitties.
 
+The last part just prints the results to our screen so we can see the result:
+```scala
+println(s"Total legs count: $totalLegsCount")
+```
+
 
