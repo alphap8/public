@@ -26,9 +26,8 @@ The code is actually divided into 3 sections.
 ### part 1:
 Here we implement the legged object:
 ```scala
-case class legged(val legsCount: Int = 0) {
-    def totalLegsCount = legsCount
-    def `with`(c: Int, t: legged) = new legged(legsCount + t.legsCount * c)
+case class legged(legsCount: Int = 0) {
+    def `with`(c: Int, t: legged) = copy(legsCount + t.legsCount * c)
   }
 ```
 ### part 2:
@@ -51,7 +50,7 @@ These instances will later be used to construct the riddle:
         .`with`(3, camel
           .`with`(3, sack
             .`with`(3, cat
-              .`with`(3, kitten))))).totalLegsCount
+              .`with`(3, kitten))))).legsCount
 ```
 As you can see we can read this just like we read the riddle itself:
 
