@@ -1,4 +1,4 @@
-# ReadMe
+# Legs Count Riddle
 במדבר יש 3 בדואים 
 
 לכל בדואי יש 3 גמלים 
@@ -19,6 +19,8 @@ I have decided to try solving this problem by writing a Scala program.
 The program should be minimalist, and most importantly - Readable !
 
 That is, I want that any non-programmer will read it and understand how it works.
+
+See my code here: https://github.com/alphap8/public/blob/master/desertRiddle/repl.sc
 
 
 # Testing
