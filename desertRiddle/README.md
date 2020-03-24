@@ -22,10 +22,11 @@ such as https://scastie.scala-lang.org/
 
 # Reading the code
 The code is actually divided into two sections:  
-The first is decalaring all the types constructs that implement the calculations.  
+The first is decalaring all the types and constructs that implement the calculations.  
 The second part is actually using them in the most readable way.
 
 Here's the first part:
+Here we decalare all the components needed for our riddle:
 ```scala
 class solver(val legsCount: Int = 0)  {
   def totalLegsCount = legsCount
@@ -46,9 +47,11 @@ case class kitten(override val legsCount:Int = 4) extends solver
 
 ```
 
-Let's take a look at the second part - where we actually solve the riddle:
+Let's take a look at the second part:
+Here we 'build' the riddle using our components:
 ```scala
-desert()
+def totalLegsCount = 
+  desert()
     .`with`(3, bedvi()
       .`with`(3, camel()
         .`with`(3, sack()
