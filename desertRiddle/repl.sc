@@ -1,7 +1,7 @@
 object Riddle {
-  case class legged(val legsCount: Int = 0) {
-    def totalLegsCount = legsCount
-    def `with`(c: Int, t: legged) = new legged(legsCount + t.legsCount * c)
+
+  case class legged(legsCount: Int = 0) {
+    def `with`(c: Int, t: legged) = copy(legsCount + t.legsCount * c)
   }
 
   val desert = legged(0)
@@ -17,7 +17,7 @@ object Riddle {
         .`with`(3, camel
           .`with`(3, sack
             .`with`(3, cat
-              .`with`(3, kitten))))).totalLegsCount
+              .`with`(3, kitten))))).legsCount
 }
 
 println(s"Total legs count: ${Riddle.solve()}")
