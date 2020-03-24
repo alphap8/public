@@ -23,7 +23,27 @@ such as https://scastie.scala-lang.org/
 # Reading the code
 The code is actually divided into two sections:  
 The first is decalaring all the types constructs that implement the calculations.  
-The second part is actually using them in the most readable way.  
+The second part is actually using them in the most readable way.
+
+Here's the first part:
+```scala
+class solver(val legsCount: Int = 0)  {
+  def totalLegsCount = legsCount
+  def `with`(c:Int, t: solver) = new solver(legsCount + t.legsCount * c)
+}
+
+case class desert(override val legsCount:Int = 0) extends solver
+
+case class sack(override val legsCount:Int = 0) extends solver
+
+case class bedvi(override val legsCount:Int = 2) extends solver
+
+case class camel(override val legsCount:Int = 4) extends solver
+
+case class cat(override val legsCount:Int = 4) extends solver
+
+case class kitten(override val legsCount:Int = 4) extends solver
+```
 
 Let's take a look at the second part - where we actually solve the riddle:
 ```
