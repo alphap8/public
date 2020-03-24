@@ -21,9 +21,7 @@ You should just copy the code and paste it to any online Scala editor that can e
 such as https://scastie.scala-lang.org/
 
 # Reading the code
-The code is actually divided into two sections:  
-The first is decalaring all the types and constructs that implement the calculations.  
-The second part is actually using them in the most readable way.
+The code is actually divided into 3 sections:  
 
 ### part 1:
 Here we decalare all the components needed for our riddle:
