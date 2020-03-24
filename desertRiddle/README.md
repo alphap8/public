@@ -33,20 +33,15 @@ class solver(val legsCount: Int = 0)  {
 }
 
 case class desert(override val legsCount:Int = 0) extends solver
-
 case class sack(override val legsCount:Int = 0) extends solver
-
 case class bedvi(override val legsCount:Int = 2) extends solver
-
 case class camel(override val legsCount:Int = 4) extends solver
-
 case class cat(override val legsCount:Int = 4) extends solver
-
 case class kitten(override val legsCount:Int = 4) extends solver
 ```
 
 Let's take a look at the second part - where we actually solve the riddle:
-```
+```scala
 desert()
     .`with`(3, bedvi()
       .`with`(3, camel()
