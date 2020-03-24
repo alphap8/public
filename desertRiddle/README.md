@@ -23,8 +23,6 @@ such as https://scastie.scala-lang.org/
 # Reading the code
 The code is actually divided into 3 sections.
 
-# Explaining the code
-
 ### part 1:
 Here we implement the legged object:
 ```scala
