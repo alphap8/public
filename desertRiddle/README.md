@@ -19,3 +19,13 @@ See my code here: https://github.com/alphap8/public/blob/master/desertRiddle/rep
 How can you test the program?  
 You should just copy the code and paste it to any online Scala editor that can execute it,  
 such as https://scastie.scala-lang.org/
+
+# Reading the code
+```
+desert()
+    .`with`(3, bedvi()
+      .`with`(3, camel()
+        .`with`(3, sack()
+          .`with`(3, cat()
+            .`with`(3, kitten()))))).totalLegsCount
+```
