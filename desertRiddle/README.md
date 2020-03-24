@@ -1,31 +1,21 @@
 # Legs Count Riddle
-במדבר יש 3 בדואים 
-
-לכל בדואי יש 3 גמלים 
-
-לכל גמל 3 שקים 
-
-בכל שק 3 חתולים 
-
-לכל חתול 3 גורים 
-
-כמה רגליים יש בסיפור ?
-
+במדבר יש 3 בדואים   
+לכל בדואי יש 3 גמלים   
+לכל גמל 3 שקים   
+בכל שק 3 חתולים   
+לכל חתול 3 גורים   
+כמה רגליים יש בסיפור ?  
 
 
 # Solution
-I have decided to try solving this problem by writing a Scala program.
-
-The program should be minimalist, and most importantly - Readable !
-
+I have decided to try solving this problem by writing a Scala program.  
+The program should be minimalist, and most importantly - Readable !  
 That is, I want that any non-programmer will read it and understand how it works.
 
 See my code here: https://github.com/alphap8/public/blob/master/desertRiddle/repl.sc
 
 
 # Testing
-How can you test the program?
-
-You should just copy the code and paste it to any online Scala editor that can execute it,
-
+How can you test the program?  
+You should just copy the code and paste it to any online Scala editor that can execute it,  
 such as https://scastie.scala-lang.org/
