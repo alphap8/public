@@ -31,7 +31,7 @@ case class legged(legsCount: Int = 0) {
   }
 ```
 ### part 2:
-Now we declare instance of legged object.  
+Now we declare instances of legged object.  
 These instances will later be used to construct the riddle:
 ```scala
   val desert = legged(0)
