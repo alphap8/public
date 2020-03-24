@@ -15,7 +15,7 @@ That is, I want that any non-programmer will read it and understand how it works
 See my code here: https://github.com/alphap8/public/blob/master/desertRiddle/repl.sc
 
 
-# Testing
+# Running the code
 How can you test the program?  
 You should just copy the code and paste it to any online Scala editor that can execute it,  
 such as https://scastie.scala-lang.org/
