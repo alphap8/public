@@ -1,7 +1,7 @@
 object Riddle {
 
   case class legged(legsCount: Int = 0) {
-    def `with`(c: Int, t: legged) = copy(legsCount + t.legsCount * c)
+    def `with`(c: Int, that: legged) = copy(this.legsCount + c * that.legsCount)
   }
 
   val desert = legged(0)
