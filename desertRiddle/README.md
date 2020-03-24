@@ -25,7 +25,7 @@ The code is actually divided into two sections:
 The first is decalaring all the types and constructs that implement the calculations.  
 The second part is actually using them in the most readable way.
 
-Here's the first part:
+### part 1:
 Here we decalare all the components needed for our riddle:
 ```scala
 class solver(val legsCount: Int = 0)  {
@@ -47,7 +47,7 @@ case class kitten(override val legsCount:Int = 4) extends solver
 
 ```
 
-Let's take a look at the second part:
+### part 2:
 Here we 'build' the riddle using our components:
 ```scala
 def totalLegsCount = 
@@ -70,6 +70,7 @@ Each sack contain 3 cats.
 
 Each cat have 3 kitties.
 
+### part 3:
 The last part just prints the results to our screen so we can see the result:
 ```scala
 println(s"Total legs count: $totalLegsCount")
