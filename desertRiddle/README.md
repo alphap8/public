@@ -34,5 +34,16 @@ desert()
           .`with`(3, cat()
             .`with`(3, kitten()))))).totalLegsCount
 ```
+As you can see we can read this just like we read the riddle itself:
+
+The Desert contain 3 bedvis.
+
+Each bedvi contain 3 camels.
+
+Each camel contains 3 sacks.
+
+Each sack contain 3 cats.
+
+Each cat have 3 kitties.
 
 
